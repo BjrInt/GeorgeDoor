@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "build:singlefile": "vite build --config singlefile.vite.config.ts",
+    "build": "vite build --config singlefile.vite.config.ts",
     "preview": "vite preview"
   },
   "devDependencies": {
