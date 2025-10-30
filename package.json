@@ -6,13 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:singlefile": "vite build --config singlefile.vite.config.ts",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@types/three": "^0.180.0",
     "sass-embedded": "^1.93.2",
     "typescript": "~5.9.3",
-    "vite": "npm:rolldown-vite@7.1.14"
+    "vite": "npm:rolldown-vite@7.1.14",
+    "vite-plugin-singlefile": "^2.3.0"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
