@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --config singlefile.vite.config.ts",
+    "build:singlefile": "vite build --config singlefile.vite.config.ts",
+    "build:gh-pages": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
